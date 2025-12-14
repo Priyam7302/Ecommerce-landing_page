@@ -348,3 +348,136 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+/* =========================
+   EXTRA SMALL DEVICES
+   (320px – 480px)
+========================= */
+@media (max-width: 480px) {
+
+  /* GLOBAL */
+  section {
+    padding: 60px 16px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    padding: 14px 16px;
+  }
+
+  .nav-logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-links li {
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    min-height: auto;
+    padding: 100px 16px 80px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 1.25;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero-badge {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 260px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* FEATURES */
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 24px;
+  }
+
+  .feature-icon {
+    font-size: 32px;
+  }
+
+  /* PRODUCTS */
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-card {
+    padding: 20px;
+  }
+
+  .product-image img {
+    height: 120px;
+  }
+
+  .product-title {
+    font-size: 14px;
+  }
+
+  /* CONTACT */
+  .contact-form {
+    padding: 22px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: 13px;
+  }
+}
+
+/* =========================
+   VERY SMALL DEVICES
+   (320px specifically)
+========================= */
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+}
